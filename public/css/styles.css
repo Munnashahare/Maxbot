@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(0, 7, 8);
+}
+h1 {
+    color: rgb(0, 255, 55);
+    text-align: center;
+}
+p {
+    color: rgb(0, 255, 55);
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+}
+h4 {
+    color: rgb(0, 255, 55);
+    text-align: center;
+}
+img {
+    padding-left: 42%;
+}
+div {
+    text-align: center;
+}
+a {
+    color: rgb(233, 16, 16);
+}
+a span {
+    color: rgb(0, 255, 55); 
+}
+form { 
+    margin: 0 auto; 
+}
+.img_item{
+	display:block; 
+    float:left; 
+}
+.column {
+    float: left;
+    width: 10%;
+    padding: 6px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.imageContainer > img:hover {
+    width: 500px;
+    height: 500px;
+  }

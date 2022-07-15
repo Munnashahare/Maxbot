@@ -1,0 +1,8 @@
+extend layout
+block content
+    - url = "/images/";
+    div.row
+        - for i in images  
+            div.imageContainer
+                img(src=url+i  , alt="Nice", class="column")
+    p You are amazing...

@@ -1,0 +1,12 @@
+extend layout
+block content
+    form(action="/index", method="post",style="text-align: center; ")
+        p First Name: 
+        input(type="text", placeholder="Enter your name",style="text-align: center; ", name="firstName" required)
+        p Last Name: 
+        input(type="text", placeholder="Enter your last name",style="text-align: center; ",name="lastName", required)
+        br
+        br
+        input(type="submit", placeholder="Submit")
+
+        
